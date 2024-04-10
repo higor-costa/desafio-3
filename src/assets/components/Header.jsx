@@ -17,7 +17,6 @@ const Header = () => {
             para dicas e tendências atuais.
           </p>
           <StyledButton as="a" href="#">Buscar artigos</StyledButton>
-          <StyledButton type="submit">Enviar</StyledButton>
         </div>
         <div className={styles.imagem}>
           <img src="src\assets\img\image.svg" alt="Caixas de presentes" />
