@@ -6,7 +6,7 @@ import StyledButton from '../styles/components/Button';
 
 const Header = () => {
   return (
-    <header>
+    <header className={styles.cabecalho}>
       <div className={styles.conteinerConteudo}>
         <div className={styles.texto}>
           <h1>

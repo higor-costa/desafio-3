@@ -1,0 +1,17 @@
+.sectionTitle {
+  margin-bottom: 60px;
+}
+
+.texto {
+  padding: 20px;
+}
+
+.conteinerCards {
+  display: grid;
+  grid-template-columns: repeat(3, 20rem);
+  gap: 20px;
+}
+
+.imagem {
+  height: 10rem;
+}
