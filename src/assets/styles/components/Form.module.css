@@ -1,0 +1,15 @@
+footer {
+  background: var(--white300);
+  text-align: center;
+}
+
+footer h2 {
+  margin-bottom: 60px;
+}
+
+form .campo {
+  border: 1px solid var(--white300);
+  border-radius: 4px;
+  background: var(--white);
+  padding: 10px;
+}
