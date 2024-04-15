@@ -24,3 +24,34 @@ header .textoDestaque {
 header .imagem {
   width: 25rem;
 }
+
+/* Dispositivos mobiles */
+@media screen and (max-width: 999px) {
+  header .conteinerConteudo {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 0 10px;
+  }
+  
+  header .texto {
+    text-align: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  header .texto h1 {
+    font-size: 6vw;
+  }
+
+  header .texto p {
+    font-size: 4vw;
+  }
+
+  header .imagem {
+    width: calc(100% - 20px);
+  }
+
+}
