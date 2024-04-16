@@ -6,6 +6,13 @@ const StyledButton = styled.button`
   padding: 14px 32px;
   border-radius: 4px;
   text-transform: uppercase;
+  transition: .5s ease-in-out;
+
+  &:hover {
+    background: transparent;
+    outline: 1px solid var(--buttonColor);
+    color: var(--buttonColor);
+  }
 `;
 
 export default StyledButton;
