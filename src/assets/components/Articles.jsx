@@ -8,6 +8,13 @@ import {
 } from '../styles/components/Card';
 import styles from '../styles/components/Articles.module.css';
 
+import img1 from '../img/img-1.jpeg';
+import img2 from '../img/img-2.jpeg';
+import img3 from '../img/img-3.jpeg';
+import img4 from '../img/img-4.jpeg';
+import img5 from '../img/img-5.jpeg';
+import img6 from '../img/img-6.jpeg';
+
 const Artigos = () => {
   return (
     <main>
@@ -18,7 +25,7 @@ const Artigos = () => {
         <div className={styles.conteinerCards}>
           <StyledCard>
             <div className={styles.imagem}>
-              <StyledImg src="src/assets/img/img-1.jpeg" alt="Artigo 1" />
+              <StyledImg src={img1} alt="Artigo 1" />
             </div>
             <div className={styles.texto}>
               <StyledTitle>
@@ -32,7 +39,7 @@ const Artigos = () => {
           </StyledCard>
           <StyledCard>
             <div className={styles.imagem}>
-              <StyledImg src="src/assets/img/img-2.jpeg" alt="Artigo 2" />
+              <StyledImg src={img2} alt="Artigo 2" />
             </div>
             <div className={styles.texto}>
               <StyledTitle>
@@ -45,7 +52,7 @@ const Artigos = () => {
           </StyledCard>
           <StyledCard>
             <div className={styles.imagem}>
-              <StyledImg src="src/assets/img/img-3.jpeg" alt="Artigo 3" />
+              <StyledImg src={img3} alt="Artigo 3" />
             </div>
             <div className={styles.texto}>
               <StyledTitle>
@@ -58,7 +65,7 @@ const Artigos = () => {
           </StyledCard>
           <StyledCard>
             <div className={styles.imagem}>
-              <StyledImg src="src/assets/img/img-4.jpeg" alt="Artigo 4" />
+              <StyledImg src={img4} alt="Artigo 4" />
             </div>
             <div className={styles.texto}>
               <StyledTitle>
@@ -71,7 +78,7 @@ const Artigos = () => {
           </StyledCard>
           <StyledCard>
             <div className={styles.imagem}>
-              <StyledImg src="src/assets/img/img-5.jpeg" alt="Artigo 5" />
+              <StyledImg src={img5} alt="Artigo 5" />
             </div>
             <div className={styles.texto}>
               <StyledTitle>
@@ -84,7 +91,7 @@ const Artigos = () => {
           </StyledCard>
           <StyledCard>
             <div className={styles.imagem}>
-              <StyledImg src="src/assets/img/img-6.jpeg" alt="Artigo 6" />
+              <StyledImg src={img6} alt="Artigo 6" />
             </div>
             <div className={styles.texto}>
               <StyledTitle>

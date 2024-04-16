@@ -4,6 +4,8 @@ import React from 'react';
 import styles from '../styles/components/Header.module.css';
 import StyledButton from '../styles/components/Button';
 
+import ilustracao from '../img/image.svg';
+
 const Header = () => {
   return (
     <header className={styles.cabecalho}>
@@ -19,7 +21,7 @@ const Header = () => {
           <StyledButton as="a" href="#">Buscar artigos</StyledButton>
         </div>
         <div className={styles.imagem}>
-          <img src="src\assets\img\image.svg" alt="Caixas de presentes" />
+          <img src={ilustracao} alt="Caixas de presentes" />
         </div>
       </div>
     </header>
