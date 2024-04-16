@@ -32,7 +32,6 @@ header .imagem {
     justify-content: center;
     align-items: center;
     gap: 20px;
-    padding: 0 10px;
   }
   
   header .texto {
@@ -53,5 +52,4 @@ header .imagem {
   header .imagem {
     width: calc(100% - 20px);
   }
-
 }
