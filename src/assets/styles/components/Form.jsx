@@ -16,6 +16,13 @@ const StyledButton = styled.input`
   padding: 10px 0;
   text-transform: uppercase;
   cursor: pointer;
+  transition: .5s ease-in-out;
+
+  &:hover {
+    background: transparent;
+    outline: 1px solid var(--buttonColor);
+    color: var(--buttonColor);
+  }
 `;
 
 export { StyledForm, StyledButton };
