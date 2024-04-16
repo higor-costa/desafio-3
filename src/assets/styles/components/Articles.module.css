@@ -8,10 +8,28 @@
 
 .conteinerCards {
   display: grid;
-  grid-template-columns: repeat(3, 20rem);
+  grid-template-columns: repeat(3, minmax(20rem, 1fr));
   gap: 20px;
 }
 
 .imagem {
   height: 10rem;
+}
+
+/* Dispositivos mobiles */
+@media screen and (min-width: 1001px) and (max-width: 1200px) {
+  .conteinerCards {
+    grid-template-columns: repeat(3, minmax(12rem, 1fr));
+  }
+}
+@media screen and (min-width: 501px) and (max-width: 1000px) {
+  .conteinerCards {
+    grid-template-columns: repeat(2, minmax(10rem, 1fr));
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .conteinerCards {
+    grid-template-columns: repeat(1, minmax(20rem, 1fr));
+  }
 }
