@@ -8,8 +8,13 @@ footer h2 {
 }
 
 form .campo {
-  border: 1px solid var(--white300);
+  border: 1px solid var(--bgSite);
   border-radius: 4px;
   background: var(--white);
   padding: 10px;
+  transition: border .5s ease-in-out;
+}
+
+form .campo:focus {
+  border-color: var(--buttonColor);
 }
